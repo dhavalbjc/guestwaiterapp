@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#454545"
+     
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F92D2"
+   
+        android:paddingTop="8dip" >
+
+        <TextView
+          android:id="@+id/tv_add_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="Add x"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#454545"
+     android:baselineAligned="false"
+        android:orientation="horizontal"
+   >
+
+          <RelativeLayout
+              android:id="@+id/Rel_is_1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight=".50"
+              
+
+               
+               android:background="@drawable/newbackground"
+              >
+       
+        <TextView            
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_centerInParent="true"
+             android:text="1"
+              
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+         </RelativeLayout>
+           <RelativeLayout
+               android:id="@+id/Rel_is_2"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+             android:text="2"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+         <RelativeLayout
+               android:id="@+id/Rel_is_3"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+             android:text="3"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_4"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+             android:text="4"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_5"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+             android:text="5"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_6"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+             android:text="6"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+         <RelativeLayout
+              android:id="@+id/Rel_is_7"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight=".50"
+              
+              
+              
+               
+               android:background="@drawable/newbackground"
+              >
+       
+        <TextView            
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_centerInParent="true"
+             android:text="7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>
+         </RelativeLayout>
+         </LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#454545"
+     android:baselineAligned="false"
+        android:orientation="horizontal"
+       
+   >
+
+          
+           <RelativeLayout
+               android:id="@+id/Rel_is_8"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+             android:text="8"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>       
+         </RelativeLayout>
+         <RelativeLayout
+               android:id="@+id/Rel_is_9"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+             android:text="9"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>       
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_10"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="10"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>       
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_11"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="11"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>       
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_12"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="12"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>       
+         </RelativeLayout>
+          <RelativeLayout
+              android:id="@+id/Rel_is_13"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight=".50"
+              
+              
+              
+               
+               android:background="@drawable/newbackground"
+              >
+       
+        <TextView            
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_centerInParent="true"
+            android:text="13"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>
+         </RelativeLayout>
+         <RelativeLayout
+               android:id="@+id/Rel_is_14"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="14"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>       
+         </RelativeLayout>
+         </LinearLayout>
+           <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#454545"
+     android:baselineAligned="false"
+        android:orientation="horizontal"
+       
+   >
+
+         
+           
+         <RelativeLayout
+               android:id="@+id/Rel_is_15"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="15"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_16"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:text="16" android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"
+            />
+       
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_17"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="17"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+          <RelativeLayout
+               android:id="@+id/Rel_is_18"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+               
+               
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>       
+         </RelativeLayout>
+         <RelativeLayout
+              android:id="@+id/Rel_is_19"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight=".50"
+              
+              
+              
+               
+               android:background="@drawable/newbackground"
+              >
+       
+        <TextView            
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_centerInParent="true"
+            android:text="19"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#505050"/>
+         </RelativeLayout>
+           <RelativeLayout
+               android:id="@+id/Rel_is_20"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+             
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="20"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+         <RelativeLayout
+               android:id="@+id/Rel_is_21"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight=".50"
+               
+                android:background="@drawable/newbackground" >
+        <TextView               
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="21"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#505050"/>
+         </RelativeLayout>
+         </LinearLayout>
+         
+           
+    
+ <RelativeLayout
+        android:id="@+id/Rel_cancel"
+        android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+   android:background="@drawable/newbackground"
+   
+       >
+
+        <TextView
+          android:id="@+id/tv_order_for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+            android:text="Cancel"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            
+            android:textColor="#505050"  />
+    </RelativeLayout>
+        <!-- 
+    
+    <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#454545"/>
+
+     -->
+
+   
+   
+</LinearLayout>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+    <item
+        android:id="@+id/action_news"
+        android:orderInCategory="100"
+        android:title="Subscribe to news"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_waiter"
+        android:orderInCategory="100"
+        android:title="Subscribe to ACW waiter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cook"
+        android:orderInCategory="100"
+        android:title="Subscribe to ACW cook"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_restro"
+        android:orderInCategory="100"
+        android:title="Subscribe to ACW restro"
+        app:showAsAction="never" />
+</menu>

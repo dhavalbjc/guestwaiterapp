@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingBottom="15dp">
+<FrameLayout
+	
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#DCE1E3"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+		android:paddingTop="10dp"
+	>
+
+</FrameLayout>
+    <RelativeLayout
+
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentLeft="true"
+	android:background="#DCE1E3"
+	android:orientation="vertical">
+
+    <ExpandableListView
+        android:id="@+id/exp_list_no"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" >
+    </ExpandableListView>
+
+</RelativeLayout>
+
+</LinearLayout>
+<!-- 
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#e2e4fe">
+
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@android:color/transparent"
+		android:cacheColorHint="@android:color/transparent"
+		android:divider="@null"
+		
+         >
+    </ExpandableListView>
+
+</LinearLayout>
+ -->

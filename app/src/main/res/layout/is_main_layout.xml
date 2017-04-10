@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="#DCE1E3"
+       android:paddingBottom="5dp">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/fram_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCE1E3"
+        android:paddingBottom="7dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/rel_is_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_selector"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="15dp"
+                android:text="Table"
+                android:textColor="#505050"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_tablename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingRight="15dp"
+                android:text="Table num"
+                android:textColor="#505050"
+                 android:textSize="20dp"
+                
+                />
+        </RelativeLayout>
+    </FrameLayout>
+<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCE1E3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+       
+         >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#DCE1E3"
+        android:orientation="vertical" >
+    </RelativeLayout>
+<LinearLayout
+        android:id="@+id/lin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/newbackground"
+         
+       
+         android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/Rel_Item_plus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".10"
+            
+            android:gravity="center"
+           android:orientation="vertical"
+           >
+
+            <ImageView
+        android:id="@+id/menu_add_button"
+           android:layout_width="25dp"		
+        android:layout_height="25dp"
+       
+     android:layout_centerInParent="true"
+        android:src="@mipmap/search" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Rel_no_item_click"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".90"
+               android:orientation="horizontal"
+           
+            
+            android:paddingLeft="9dp"
+           >
+
+  <com.example.astics.qrscannetinbuilt.CustomAutoCompleteView
+        android:id="@+id/myautocomplete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:completionThreshold="2"
+        android:hint="search item..."
+        android:textColor="#505050"
+        
+         android:textSize="20dp"
+                 
+         >
+    </com.example.astics.qrscannetinbuilt.CustomAutoCompleteView>
+           
+        </RelativeLayout>
+        
+    </LinearLayout>
+    </FrameLayout>
+   
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCE1E3"
+       
+         android:orientation="vertical">
+    <RelativeLayout
+
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_alignParentLeft="true"
+	 
+            
+	android:background="#DCE1E3"
+	android:orientation="vertical">
+
+    <ExpandableListView
+        android:id="@+id/lv_cartitems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" >
+
+    </ExpandableListView>
+   
+    
+
+</RelativeLayout>
+
+ <RelativeLayout
+           android:id="@+id/is_addNewItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		 android:background="@drawable/card_background_selector"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+     
+      <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+           android:layout_marginLeft="20dp"
+            android:alpha="0.5"
+            android:text="+"
+            android:textColor="#505050"
+            android:textSize="25dip"
+           
+           
+             />
+
+        <TextView
+            android:id="@+id/textView1"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:alpha="0.5"
+            android:gravity="center_vertical"
+            android:text="Add New Item"
+            android:textSize="18dip" />
+        
+    </RelativeLayout>
+    <LinearLayout
+    android:id="@+id/Payment_option"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+     android:background="#DCE1E3"
+		>
+ <LinearLayout
+ android:id="@+id/btn_print"
+   android:layout_width="0dp"
+        android:layout_height="match_parent"
+           android:layout_marginRight="4dp"
+    android:layout_weight="1"
+     android:background="@drawable/newbackground"
+    android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:alpha="0.9"
+         android:src="@mipmap/printer4"/>
+
+    <TextView
+      
+        android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+      
+       android:layout_gravity="center"
+     android:alpha="0.9"
+       
+       android:padding="0dp"
+          android:text="Total"
+  android:textColor="#505050"
+    android:textSize="20dp" />
+    </LinearLayout>
+ <LinearLayout
+ android:id="@+id/btn_pay"
+  android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+    android:layout_weight="1"
+    android:background="@drawable/newbackground"
+     android:orientation="vertical">
+     <ImageView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:alpha="0.9"
+         android:src="@mipmap/payment1"/>
+    <TextView
+       
+         android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+        android:layout_gravity="center"
+       android:alpha="0.9"
+         android:text="Pay"
+         
+        android:textColor="#505050"
+    android:textSize="20dp" />
+
+</LinearLayout>
+</LinearLayout>
+
+    </LinearLayout>
+   
+</LinearLayout>
+ </ScrollView>
+
+

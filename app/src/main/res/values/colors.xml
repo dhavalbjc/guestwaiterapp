@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F92D2</color>
+    <color name="colorPrimaryDark">#3F92D2</color>
+    <color name="colorAccent">#ffffdc7e</color>
+    <color name="orange">#ffffdc7e</color>
+    <color name="grey">#ffd3d3d3</color>
+    <color name="green">#ff8dd304</color>
+    <color name="blue">#ff82e0ff</color>
+    <color name="yellow">#fffffbae</color>
+    <color name="red">#fff10800</color>
+    <color name="White">#ffffffff</color>
+    <!--   <color name="turquoise4">#eedd82</color>-->
+
+    <color name="light">#fffacd</color>
+    <color name="GhostWhite">#f8f8ff</color>
+    <color name="FloralWhite">#fffaf0</color>
+    <color name="WhiteSmoke">#f5f5f5</color>
+    <color name="snow1">#fffafa</color>
+    <color name="snow2">#eee9e9</color>
+    <color name="snow3">#cdc9c9</color>
+    <!--   <color name="turquoise4">#eedd82</color>-->
+    <color name="list_item_pressed">#1A000000</color>
+</resources>
